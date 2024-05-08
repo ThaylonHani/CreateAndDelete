@@ -41,7 +41,7 @@ int main()
 			}
 			break; 
 		case ('D'): 
-			printf("Digite o nome(max:20) da pasta para ser criada:\n");
+			printf("Digite o nome(max:20) da pasta para ser deletada:\n");
 			fflush(stdin);
 			scanf("%[^\n]", &folderName); 
 			printf("\n");
